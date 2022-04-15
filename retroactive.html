@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Retroactive</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="styles.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
     integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5"
@@ -35,40 +36,74 @@
             </ul>
         </div>
     </nav>
-    
-    <!-- Hero Section -->
-    <div class="main">
-        <div class="main__container">
-            <div class="main__content">
-                <h1>Hi, my name is Pranay.</h1>
-                <p>I'm a third year software engineering student :)</p>
-                <h2>Welcome to my Website!</h2>
-                <button class="main__btn"><a href="passions.html">About Me</a></button>
-            </div>
-        </div>
-    </div>
 
-    <!-- Services Section -->
-    <div class="services">
-        <h1>Some of my Projects</h1>
-        <div class="services__container">
-            <div class="services__card">
-                <h2>Retroactive</h2>
-                <p>Open Source Team Project - Java</p>
-                <button><a href="retroactive.html">View</a></button>
+   <!-- Project Section -->
+    <div class="project__container--wrapper">
+        <div class="project__container">
+            <div class="project__title"> Retroactive</div>
+            <div class="project__description__container">
+                <div class="project__specification">
+                    <p>
+                        Retroactive is an isometric, temporal racing game,
+                        developed as part of my university project by me
+                        and students in my class. It was a huge collaborative
+                        project that was worked on for 3 months.
+                        <br>
+                        <br>
+                        Retroactive challenges players to go as many nights
+                        as possible without being caught by their Mother. 
+                        The player must navigate the map to reach their bed
+                        before the clock reaches midnight! Each level you
+                        complete will increase your high score, but it will
+                        also increase game difficulty.
+                        <br>
+                        <br>
+                        As the game progresses, the map will expand,
+                        obstacles will increase, and the number of chores
+                        the player must complete before they can get to bed
+                        will increase. 
+                        <br>
+                        <br>
+                        Whatever you do, don't get caught or
+                        its all over!
+                    </p>
+                    <div class="project__github__link">
+                        <a href="https://github.com/pranaypremdas/Retroactive" 
+                        class="project__github--link" target="_blank">
+                        <i class="fab fa-github"></i> </a>
+                    </div>
+                </div>
+                <div class="project__page__img" id="img_1"></div>
+            </div>   
+        </div>
+
+        <!-- Video Section -->
+        <div class="project__video--wrapper">
+            <div class="project__video--title"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-once="false">
+            Watch me play the game!
             </div>
-            <div class="services__card">
-                <h2>Key Cave Adventure</h2>
-                <p>GUI game - Python</p>
-                <button><a href="retroactive.html">View</a></button>
-            </div>
-            <div class="services__card">
-                <h2>Cat Clock</h2>
-                <p>Clock App - Electron Javascript</p>
-                <button><a href="retroactive.html">View</a></button>
+            <div 
+                class="project__video"
+                data-aos="fade-left"
+                data-aos-duration="1500"
+                data-aos-once="false">
+
+                <iframe
+                width="800"
+                height="500"
+                src="https://www.youtube.com/embed/su9I-VFVdhg"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write;
+                encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
             </div>
         </div>
-    </div>
+
+
 
     <!-- Footers Section -->
     <div class="footer__container">
@@ -102,6 +137,10 @@
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src= app.js></script>
 </body>
 </html>
