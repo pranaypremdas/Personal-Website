@@ -720,8 +720,10 @@
 .project__github--wrap {
     display: grid;
     position: absolute;
+    font-size: 24px;
     margin-left: 49.27rem;
     margin-top: 2.8rem;
+    text-align: end;
     z-index: 1;
 }
 
@@ -766,20 +768,24 @@
 /* Retroactive CSS */
 .project__container--wrapper{
     display: grid;
-    height: min-content;
+    height: auto;
     /* border: 2px solid red; */
     z-index: 1;
 }
 
+.project__container {
+    min-height: 92vh;
+}
+
+
 .project__title{
     display: flex;
     z-index: 1;
-    margin: 5.5rem auto 0 9.5rem;
+    margin: 5rem auto auto auto;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 2rem;
-    width: min-content;
-    max-width: 1300px;
-    /* border: 2px solid blue; */
+    width: 100%;
+    max-width: 1100px;
 }
 
 .project__description__container {
@@ -790,14 +796,11 @@
     max-width: 1100px;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 3rem;
-    padding-top: 2rem;
-    /* border: 2px solid green; */
 }
 
 .project__specification {
     width: 70%;
     margin: 0 2rem 0 0;
-    /* border: 2px solid darkorange; */
 }
 
 .project__specification p {
@@ -819,7 +822,6 @@
     padding-bottom: 2rem;
     background-size: cover;
     animation: fadeInUp ease 1s forwards;
-    /* border: 2px solid firebrick; */
 }
 
 .project__github__link {
@@ -846,3 +848,109 @@
     font-size: 2rem;
 }
 
+/* Passions CSS */
+.passions__wrapper{
+    display: grid;
+    height: auto;
+    z-index: 1;
+}
+
+
+.passions__card--puzzle{
+    display: grid;
+    z-index: 1;
+    margin: 6rem auto auto auto;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    max-width: 950px;
+    height: fit-content;
+}
+
+.passions__card--puzzle_img {
+    height: 360px;
+    width: 450px;
+    margin: auto;
+}
+
+.puzzle__wrapper {
+    display: flex;
+}
+
+#img_8 {
+    background-image: url('/images/pic8.png');
+    background-size: cover;
+}
+
+#img_9 {
+    background-image: url('/images/pic9.png');
+    background-position: 55%;
+    background-size: cover;
+}
+
+.puzzle__card {
+    font-size: 2rem;
+    color: black;
+}
+
+.puzzle__card--description {
+    color: black;
+    font-size: 1rem;
+    padding-top: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    text-align: justify;
+}
+
+#img_10 {
+    background-image: url('/images/pic10.png');
+    background-size: cover;
+}
+
+#img_11 {
+    background-image: url('/images/pic11.png');
+    background-position: 55%;
+    background-size: cover;
+}
+
+
+/* About CSS */
+
+.about__wrapper{
+    display: grid;
+    height: auto;
+    min-height: 92vh;
+    z-index: 1;
+}
+
+
+.about__wrapper--about{
+    display: flex;
+    z-index: 1;
+    margin: 6rem auto auto auto;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.about__card--img {
+    height: 440px;
+    width: 400px;
+    margin: auto auto 4rem auto;
+}
+
+.about__card--description {
+    color: black;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+    width: 30rem;
+    text-align: justify;
+}
+
+#img_12 {
+    background-image: url('/images/pic2.jpg');
+    background-size: cover;   
+}
