@@ -445,7 +445,7 @@
     to bottom,
     rgba(0,0,0,0) 0%,
     rgba(17, 17, 17, 0.6) 100%),
-    url('/images/pic4.png');
+    url('/pic4.png');
     background-size: cover;
     background-position: 55%;
     position: relative;
@@ -463,7 +463,7 @@
     to bottom,
     rgba(0,0,0,0) 0%,
     rgba(17, 17, 17, 0.6) 100%),
-    url('/images/pic5.png');
+    url('/pic5.png');
     background-size: cover;
     background-position: 20%;
     position: relative;
@@ -475,7 +475,7 @@
     to bottom,
     rgba(0,0,0,0) 0%,
     rgba(17, 17, 17, 0.6) 100%),
-    url('/images/pic6.png');
+    url('/pic6.png');
     background-size: cover;
     background-position: 50%;
     position: relative;
@@ -748,21 +748,21 @@
 
 #img_1 {
     background-position: 55%;
-    background-image: url('/images/pic4.png');
+    background-image: url('/pic4.png');
 }
 
 #img_2 {
-    background-image: url('/images/pic5.png');
+    background-image: url('pic5.png');
 }
 
 #img_3 {
     background-position: 55%;
-    background-image: url('/images/pic6.png');
+    background-image: url('/pic6.png');
 }
 
 #img_4 {
     background-position: 55%;
-    background-image: url('/images/pic7.png');
+    background-image: url('/pic7.png');
 }
 
 /* Retroactive CSS */
@@ -878,12 +878,12 @@
 }
 
 #img_8 {
-    background-image: url('/images/pic8.png');
+    background-image: url('/pic8.png');
     background-size: cover;
 }
 
 #img_9 {
-    background-image: url('/images/pic9.png');
+    background-image: url('/pic9.png');
     background-position: 55%;
     background-size: cover;
 }
@@ -903,12 +903,12 @@
 }
 
 #img_10 {
-    background-image: url('/images/pic10.png');
+    background-image: url('/pic10.png');
     background-size: cover;
 }
 
 #img_11 {
-    background-image: url('/images/pic11.png');
+    background-image: url('/pic11.png');
     background-position: 55%;
     background-size: cover;
 }
@@ -951,6 +951,6 @@
 }
 
 #img_12 {
-    background-image: url('/images/pic2.jpg');
+    background-image: url('/pic2.jpg');
     background-size: cover;   
 }
